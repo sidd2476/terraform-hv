@@ -1,3 +1,4 @@
+@Liberary("jenkins-standard")
 pipeline {
     agent any
 
@@ -7,6 +8,9 @@ pipeline {
     }
 
     stages {
+        stage('Demo'){
+            welocme('siddhanth')
+        }
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
