@@ -1,4 +1,4 @@
-@Liberary("jenkins-standard")
+@Liberary('jenkins-standard') _
 pipeline {
     agent any
 
