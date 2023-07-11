@@ -9,7 +9,9 @@ pipeline {
 
     stages {
         stage('Demo'){
-            welocme('siddhanth')
+            steps{ 
+                welocme('siddhanth')
+            }
         }
         stage('Build') {
             steps {
